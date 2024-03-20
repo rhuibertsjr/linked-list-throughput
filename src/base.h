@@ -18,4 +18,7 @@ typedef int16_t i16;
 typedef int32_t i32;
 typedef int64_t i64;
 
+#define KB(b) ((b) << 10)
+#define MB(b) ((b) << 20)
+
 #endif // BASE_H
